@@ -9,7 +9,8 @@ export const metadata: Metadata = {
     default: "Universal Tower Defense - Codes, Tier List, Guides",
     template: "%s | Universal Tower Defense"
   },
-  description: "Complete Universal Tower Defense resource hub! Get the latest working codes, tier lists, DPS calculators, team guides, and wiki for UTD Roblox game. Master every wave with our tools and strategies.",
+  description:
+    "Universal Tower Defense hub: working codes, tier lists, DPS calculators, team builds, guides, and wiki—everything you need to progress faster in UTD Roblox.",
   keywords: ["Universal Tower Defense", "UTD", "Roblox", "Tower Defense", "Codes", "Tier List", "Calculator", "Wiki", "Guide"],
   authors: [{ name: "UTD Resource Hub" }],
   openGraph: {
@@ -22,14 +23,15 @@ export const metadata: Metadata = {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Universal Tower Defense - Codes, Tier List, Guides & Calculator'
+        alt: "Universal Tower Defense - Codes, Tier List, Guides"
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Universal Tower Defense (UTD) - Codes & Guides',
-    description: 'Universal Tower Defense hub: working codes, tier lists, calculators, guides, and wiki',
+    description:
+      "Universal Tower Defense hub: working codes, tier lists, DPS calculators, team builds, guides, and wiki—everything you need to progress faster in UTD Roblox.",
     images: ['/og-image.png'],
   },
   robots: {

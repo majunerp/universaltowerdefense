@@ -16,12 +16,12 @@ import {
 export const metadata: Metadata = {
   title: "Universal Tower Defense - Codes, Tier List, Guides",
   description:
-    "Complete Universal Tower Defense resource hub! Get the latest working codes, tier lists, DPS calculators, team guides, and wiki for UTD Roblox game. Master every wave with our tools and strategies.",
+    "Universal Tower Defense hub: working codes, tier lists, DPS calculators, team builds, guides, and wiki—everything you need to progress faster in UTD Roblox.",
   alternates: { canonical: "/" },
   openGraph: {
     title: "Universal Tower Defense - Codes, Tier List, Guides",
     description:
-      "Complete Universal Tower Defense resource hub: working codes, tier lists, calculators, guides, and wiki for UTD Roblox.",
+      "Universal Tower Defense hub: working codes, tier lists, DPS calculators, team builds, guides, and wiki—everything you need to progress faster in UTD Roblox.",
   },
 };
 
