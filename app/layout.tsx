@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   metadataBase: new URL("https://universaltowerdefense.app"),
   title: {
-    default: "Universal Tower Defense - Codes, Tier List, Guides & Calculator | UTD Roblox",
+    default: "Universal Tower Defense - Codes, Tier List, Guides",
     template: "%s | Universal Tower Defense"
   },
   description: "Complete Universal Tower Defense resource hub! Get the latest working codes, tier lists, DPS calculators, team guides, and wiki for UTD Roblox game. Master every wave with our tools and strategies.",
