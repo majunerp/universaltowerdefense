@@ -4,7 +4,7 @@ export type NavItem = {
   description?: string;
 };
 
-export const SITE_URL = "https://theforgecodes.org";
+export const SITE_URL = "https://universaltowerdefense.app";
 export const SITE_NAME = "Universal Tower Defense";
 
 export const ROBLOX_GAME_URL =

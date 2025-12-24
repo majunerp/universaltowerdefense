@@ -1,6 +1,6 @@
-# robots.txt for theforgecodes.org (UTD hub)
+# robots.txt for universaltowerdefense.app (UTD hub)
 User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://theforgecodes.org/sitemap.xml
+Sitemap: https://universaltowerdefense.app/sitemap.xml

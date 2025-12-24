@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://theforgecodes.org'),
+  metadataBase: new URL("https://universaltowerdefense.app"),
   title: {
     default: "Universal Tower Defense - Codes, Tier List, Guides & Calculator | UTD Roblox",
     template: "%s | Universal Tower Defense"
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://theforgecodes.org/',
+    url: "https://universaltowerdefense.app/",
     siteName: 'Universal Tower Defense',
     images: [
       {
