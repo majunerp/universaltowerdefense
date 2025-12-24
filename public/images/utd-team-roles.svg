@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-label="Team role coverage diagram for Universal Tower Defense">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="1" stop-color="#0b1220"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 30px system-ui, -apple-system, Segoe UI, Roboto, Arial; fill: #e2e8f0; }
+      .sub { font: 500 16px system-ui, -apple-system, Segoe UI, Roboto, Arial; fill: #94a3b8; }
+      .slot { fill: rgba(15, 23, 42, 0.78); stroke: rgba(148, 163, 184, 0.25); stroke-width: 2; }
+      .slotTitle { font: 800 14px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; fill: #e2e8f0; letter-spacing: .1em; }
+      .slotText { font: 600 14px system-ui, -apple-system, Segoe UI, Roboto, Arial; fill: #cbd5e1; }
+      .hint { font: 500 12px system-ui, -apple-system, Segoe UI, Roboto, Arial; fill: #94a3b8; }
+      .ring { fill: none; stroke: url(#accent2); stroke-width: 6; opacity: 0.8; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="600" fill="url(#bg2)"/>
+  <rect x="40" y="32" width="1120" height="536" rx="28" fill="rgba(2,6,23,0.15)" stroke="rgba(56,189,248,0.18)" />
+  <rect x="40" y="32" width="1120" height="6" fill="url(#accent2)" opacity="0.9"/>
+
+  <text x="70" y="92" class="title">Team Role Coverage (6 Slots)</text>
+  <text x="70" y="122" class="sub">A balanced team beats “six DPS” more often than it loses.</text>
+
+  <!-- Center ring -->
+  <circle cx="600" cy="338" r="132" class="ring"/>
+  <circle cx="600" cy="338" r="84" class="ring" opacity="0.35"/>
+
+  <!-- Slots -->
+  <rect x="140" y="220" width="240" height="120" rx="18" class="slot"/>
+  <text x="170" y="255" class="slotTitle">SLOT 1</text>
+  <text x="170" y="284" class="slotText">Early Coverage</text>
+  <text x="170" y="308" class="hint">Stops leaks and stabilizes runs</text>
+
+  <rect x="140" y="360" width="240" height="120" rx="18" class="slot"/>
+  <text x="170" y="395" class="slotTitle">SLOT 2</text>
+  <text x="170" y="424" class="slotText">Crowd Control</text>
+  <text x="170" y="448" class="hint">Slow, stun, debuff, regroup</text>
+
+  <rect x="460" y="160" width="280" height="120" rx="18" class="slot"/>
+  <text x="490" y="195" class="slotTitle">SLOT 3</text>
+  <text x="490" y="224" class="slotText">Main DPS (Scaling)</text>
+  <text x="490" y="248" class="hint">Your late-wave engine</text>
+
+  <rect x="820" y="220" width="240" height="120" rx="18" class="slot"/>
+  <text x="850" y="255" class="slotTitle">SLOT 4</text>
+  <text x="850" y="284" class="slotText">Support</text>
+  <text x="850" y="308" class="hint">Buffs, utility, consistency</text>
+
+  <rect x="820" y="360" width="240" height="120" rx="18" class="slot"/>
+  <text x="850" y="395" class="slotTitle">SLOT 5</text>
+  <text x="850" y="424" class="slotText">Boss / Single Target</text>
+  <text x="850" y="448" class="hint">Prevents timeouts and stalls</text>
+
+  <rect x="460" y="420" width="280" height="120" rx="18" class="slot"/>
+  <text x="490" y="455" class="slotTitle">SLOT 6</text>
+  <text x="490" y="484" class="slotText">Flex</text>
+  <text x="490" y="508" class="hint">Second CC, economy, hybrid</text>
+
+  <text x="70" y="558" class="hint">Tip: If you are timing out, add scaling DPS; if you are leaking, add early coverage or CC.</text>
+</svg>
