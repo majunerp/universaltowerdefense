@@ -37,19 +37,4 @@ export const NAV_ITEMS: NavItem[] = [
     label: "Wiki",
     description: "Units, summons, systems",
   },
-  {
-    href: "/universal-tower-defense-script",
-    label: "Script",
-    description: "Safety notes + info",
-  },
-  {
-    href: "/universal-tower-defense-community",
-    label: "Community",
-    description: "Resources + updates",
-  },
-  {
-    href: "/universal-tower-defense-discord",
-    label: "Discord",
-    description: "How to find official link",
-  },
 ];

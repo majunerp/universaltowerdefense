@@ -84,15 +84,18 @@ export default function UTDResourcesPage() {
               Play UTD on Roblox
             </a>
             <Link
-              href="/universal-tower-defense-discord"
+              href="/universal-tower-defense-questions#discord-community-safety"
               className="w-full sm:w-auto rounded-full border border-white/10 bg-zinc-950/40 px-6 py-3 text-sm font-bold text-white backdrop-blur-md transition-all hover:bg-zinc-900/60 hover:border-sky-400/30"
             >
-              Discord safety checklist
+              Discord safety FAQ
             </Link>
           </div>
         </section>
 
-        <section className="rounded-3xl border border-white/10 bg-zinc-950/60 backdrop-blur-md p-6 md:p-8 shadow-lg shadow-black/30 space-y-5">
+        <section
+          id="quick-checklists"
+          className="scroll-mt-28 rounded-3xl border border-white/10 bg-zinc-950/60 backdrop-blur-md p-6 md:p-8 shadow-lg shadow-black/30 space-y-5"
+        >
           <div className="text-center space-y-2">
             <h2 className="text-2xl md:text-3xl font-bold text-white text-glow">Quick checklists</h2>
             <p className="mx-auto max-w-3xl text-sm text-zinc-300 leading-relaxed">
@@ -130,7 +133,7 @@ export default function UTDResourcesPage() {
           <div className="text-center space-y-2">
             <h2 className="text-2xl md:text-3xl font-bold text-white text-glow">Core pages</h2>
             <p className="mx-auto max-w-3xl text-sm text-zinc-300 leading-relaxed">
-              These pages match the main navigation of the reference hub: codes, tier list, guide, wiki, and community.
+              These pages cover the essentials: codes, tier list, calculator, guide, and wiki.
             </p>
           </div>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -206,4 +209,3 @@ export default function UTDResourcesPage() {
     </div>
   );
 }
-

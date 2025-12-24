@@ -83,10 +83,10 @@ export default function UTDWeaponTierListPage() {
               Read guide
             </Link>
             <Link
-              href="/universal-tower-defense-community"
+              href="/universal-tower-defense-resources#quick-checklists"
               className="w-full sm:w-auto rounded-full border border-white/10 bg-zinc-950/40 px-6 py-3 text-sm font-bold text-white backdrop-blur-md transition-all hover:bg-zinc-900/60 hover:border-sky-400/30"
             >
-              Community checklist
+              Quick checklists
             </Link>
           </div>
         </section>
@@ -167,4 +167,3 @@ export default function UTDWeaponTierListPage() {
     </div>
   );
 }
-

@@ -101,6 +101,13 @@ const faqSections = [
 ] as const;
 
 export default function UTDQuestionsPage() {
+  const sectionId = (title: string) =>
+    title
+      .toLowerCase()
+      .replace(/&/g, " ")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/(^-|-$)/g, "");
+
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -199,7 +206,8 @@ export default function UTDQuestionsPage() {
           {faqSections.map((section) => (
             <div
               key={section.title}
-              className="rounded-3xl border border-white/10 bg-zinc-950/60 backdrop-blur-md p-6 md:p-8 shadow-lg shadow-black/30 space-y-4"
+              id={sectionId(section.title)}
+              className="scroll-mt-28 rounded-3xl border border-white/10 bg-zinc-950/60 backdrop-blur-md p-6 md:p-8 shadow-lg shadow-black/30 space-y-4"
             >
               <h2 className="font-[family-name:var(--font-orbitron)] text-xl md:text-2xl font-extrabold text-white text-glow">
                 {section.title}
@@ -231,7 +239,7 @@ export default function UTDQuestionsPage() {
             Still stuck?
           </h2>
           <p className="mx-auto max-w-2xl text-sm text-zinc-200 leading-relaxed">
-            Use the guide for progression structure and the community page for safe resource links.
+            Use the guide for progression structure and the resources page for tools and safe links.
           </p>
           <div className="pt-2 flex flex-col sm:flex-row justify-center gap-3">
             <Link
@@ -241,10 +249,10 @@ export default function UTDQuestionsPage() {
               Open Guide
             </Link>
             <Link
-              href="/universal-tower-defense-community"
+              href="/universal-tower-defense-resources"
               className="rounded-full border border-white/10 bg-zinc-950/40 px-6 py-2.5 text-sm font-bold text-white backdrop-blur-md transition-all hover:bg-zinc-900/60 hover:border-sky-400/25"
             >
-              Community Hub
+              Tools & Resources
             </Link>
           </div>
         </section>
@@ -257,4 +265,3 @@ export default function UTDQuestionsPage() {
     </div>
   );
 }
-
