@@ -58,14 +58,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Geist+Mono:wght@400..900&family=Orbitron:wght@400..900&display=swap"
-          rel="stylesheet"
-        />
         {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-N0TG1GD3WX"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LQZ5NGC4PW"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -73,9 +67,15 @@ export default function RootLayout({
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-N0TG1GD3WX');
+  gtag('config', 'G-LQZ5NGC4PW');
 `,
           }}
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Geist:wght@400..900&family=Geist+Mono:wght@400..900&family=Orbitron:wght@400..900&display=swap"
+          rel="stylesheet"
         />
         {/* Microsoft Clarity */}
          <script
